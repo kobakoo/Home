@@ -5,39 +5,39 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <section class="bg-white">
-      <div class="mx-auto max-w-screen-xl space-y-8 overflow-hidden px-4 py-12 sm:px-6 lg:px-8">
-        <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
-          <div class="px-5 py-2">
+    <section className="bg-white">
+      <div className="mx-auto max-w-screen-xl space-y-8 overflow-hidden px-4 py-12 sm:px-6 lg:px-8">
+        <nav className="-mx-5 -my-2 flex flex-wrap justify-center">
+          <div className="px-5 py-2">
             <Link
               href="/about"
-              class="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-gray-900"
             >
               About
             </Link>
           </div>
-          <div class="px-5 py-2">
+          <div className="px-5 py-2">
             <a
               href="https://blog.kobakoo.com/"
-              class="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-gray-900"
               target="_blank"
             >
               Blog
             </a>
           </div>
-          <div class="px-5 py-2">
+          <div className="px-5 py-2">
             <a
               href="https://twitter.com/team_aurora_pr"
-              class="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-gray-900"
               target="_blank"
             >
               Team
             </a>
           </div>
-          <div class="px-5 py-2">
+          <div className="px-5 py-2">
             <a
               href="#"
-              class="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-gray-900"
             >
               Contact
             </a>
@@ -51,7 +51,7 @@ function Footer() {
             </a>
           </div> */}
         </nav>
-        <div class="mt-8 flex justify-center space-x-6">
+        <div className="mt-8 flex justify-center space-x-6">
           {/* <a href="#" class="text-gray-400 hover:text-gray-500">
             <span class="sr-only">Facebook</span>
             <svg
@@ -84,12 +84,12 @@ function Footer() {
           </a> */}
           <a
             href="https://twitter.com/kobako0O"
-            class="text-gray-400 hover:text-gray-500"
+            className="text-gray-400 hover:text-gray-500"
             target="_blank"
           >
-            <span class="sr-only">Twitter</span>
+            <span className="sr-only">Twitter</span>
             <svg
-              class="h-6 w-6"
+              className="h-6 w-6"
               aria-hidden="true"
               fill="currentColor"
               viewBox="0 0 24 24"
@@ -99,12 +99,12 @@ function Footer() {
           </a>
           <a
             href="https://github.com/kobakoo"
-            class="text-gray-400 hover:text-gray-500"
+            className="text-gray-400 hover:text-gray-500"
             target="_blank"
           >
-            <span class="sr-only">GitHub</span>
+            <span className="sr-only">GitHub</span>
             <svg
-              class="h-6 w-6"
+              className="h-6 w-6"
               aria-hidden="true"
               fill="currentColor"
               viewBox="0 0 24 24"
@@ -117,7 +117,7 @@ function Footer() {
             </svg>
           </a>
         </div>
-        <p class="mt-8 text-center text-base leading-6 text-gray-400">
+        <p className="mt-8 text-center text-base leading-6 text-gray-400">
           © 2023 Kobako, Corp. All rights reserved.
         </p>
       </div>

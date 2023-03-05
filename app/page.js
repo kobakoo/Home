@@ -2,7 +2,6 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 // import styles from "./page.module.css";
 import Partners from "@/components/Partners";
-import { dividerClasses } from "@mui/material";
 import Activities from "@/components/Activities";
 import HomeView from "@/components/HomeView";
 
