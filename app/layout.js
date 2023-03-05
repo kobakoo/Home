@@ -3,6 +3,7 @@ import React from "react";
 import "./styles/style.css";
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Create Next App",
@@ -18,6 +19,7 @@ export default function RootLayout({ children, statusCode }) {
         <body>
           <Header />
           {children}
+          <Analytics />
           <Footer />
         </body>
       </html>
