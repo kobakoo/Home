@@ -1,6 +1,7 @@
 "use client";
 import { XMarkIcon } from "@heroicons/react/20/solid";
 import React, { useState } from "react";
+import Link from "next/link";
 
 function Partners() {
   const [isButtonClicked, setIsButtonClicked] = useState(false);
@@ -60,12 +61,12 @@ function Partners() {
           </svg>
           このサイトと相互リンクを結んでいる人達
         </p>
-        <a
-          href="#"
+        <Link
+          href="/partners"
           className="flex-none rounded-full bg-gray-900 py-1 px-3.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >
           Read more<span aria-hidden="true">&rarr;</span>
-        </a>
+        </Link>
       </div>
       <div className="flex flex-1 justify-end">
         <button
