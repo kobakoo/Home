@@ -25,7 +25,7 @@ const sponsors = [
   {
     name: "卑弥呼系ラーメン",
     logo: "/logo/ramen.jpeg",
-    url: "https://ramenhimiko.xsrv.jp/",
+    url: "https://twitter.com/ontamagodayo",
     desc: "自作PCとかジャンク漁りとかUnityとかウェブデザインとか競プロとかをやっている人(?)です。",
   },
   {
