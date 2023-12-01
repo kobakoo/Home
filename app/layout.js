@@ -23,8 +23,6 @@ export default function RootLayout({ children, statusCode }) {
           <Analytics />
           <Footer />
         </body>
-      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2865457642883268"
-     crossorigin="anonymous"/>
       </html>
     );
   }
