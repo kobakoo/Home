@@ -4,6 +4,7 @@ import "./styles/style.css";
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
 import { Analytics } from "@vercel/analytics/react";
+import Script from "next/script";
 
 export const metadata = {
   title: "kobakoo.com",
@@ -22,6 +23,8 @@ export default function RootLayout({ children, statusCode }) {
           <Analytics />
           <Footer />
         </body>
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2865457642883268"
+     crossorigin="anonymous"/>
       </html>
     );
   }
